@@ -165,7 +165,7 @@ float readSensor(){
   }
   sensorValue = sensorValue/100.0;
   sensorVolt = (float)(sensorValue*vRef)/1024;
-  RS_gas = sensorVolt/(5.0-sensorVolt);
+  RS_gas = sensorVolt/(vRef-sensorVolt);
   return RS_gas;
 }
 
