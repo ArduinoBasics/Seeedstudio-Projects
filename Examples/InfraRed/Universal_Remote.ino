@@ -4,7 +4,7 @@
  * Date created: 09 March 2019
  * Arduino IDE version: 1.8.5
  * Operating System: Windows 10 Pro
- * Tutorial Link: https//arduinobasics.blogspot.com/
+ * Tutorial Link: https://arduinobasics.blogspot.com/2019/04/universal-remote-grove-infrared-project.html
  * 
  * Description: 
  * This project will turn an ordinary Keyes IR remote into a programmable multi-signal universal remote.
