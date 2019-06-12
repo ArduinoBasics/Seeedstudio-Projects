@@ -125,5 +125,3 @@ void clearScreen(){
   lcd.setCursor(0,1);
   lcd.print("                ");
 }
-  
-
