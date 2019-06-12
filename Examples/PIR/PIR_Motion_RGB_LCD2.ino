@@ -105,7 +105,7 @@ void loop() {
       lcd.setCursor(0, 1);
       lcd.print("Going to sleep  ");
       detection = false;
-      for(int i=50; i>0; i--){
+      for(int i=255; i>0; i--){
         lcd.setRGB(0,i,i);
         delay(20);
       }
